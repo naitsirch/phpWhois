@@ -1,3 +1,9 @@
+5.0.2 - 2018-04-27
+------------------
+* Fix a broken variable reference in GTLD fastdomain handler
+* Update the license to GPL 2.0+
+* Update `composer.json` and `README.md` to reference this project instead of the original
+
 5.0.1 - 2018-01-18
 ------------------
 * Correctly retrieve expiration date in GTLD handler
