@@ -1,3 +1,8 @@
+5.1.0 - 2018-05-29
+------------------
+* Fix broken CI build (#20)
+* Fix CVE-2015-5243 (#19)
+
 5.0.2 - 2018-04-27
 ------------------
 * Fix a broken variable reference in GTLD fastdomain handler
