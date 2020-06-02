@@ -42,7 +42,8 @@ abstract class HandlerTest extends TestCase
             $which
         );
         if (file_exists($fixture)) {
-            return file($fixture);
+            $raw = file_get_contents($fixture);
+            return explode("\n", $raw);
         }
 
         throw new \InvalidArgumentException('Cannot find fixture');
